@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/glorial83/nodejs/issues"
   },
-  "homepage": "https://github.com/glorial83/nodejs#readme"
+  "homepage": "https://github.com/glorial83/nodejs#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
 }

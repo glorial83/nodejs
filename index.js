@@ -1,7 +1,13 @@
-function test() {
-  console.log("hihihihi\n");
-  console.log("hihihihi\n");
-  console.log("hihihihi\n");
-}
+var express = require("express");
 
-test();
+var app = express();
+
+app.get('/', function(req,res){
+    res.send("Hello World!");
+  }
+);
+
+app.listen(3000, function(){
+    console.log("Server On!!!!!!");
+  }
+);
